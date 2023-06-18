@@ -23,7 +23,7 @@ Which coding language will benefit you the most learning upfront? By answering a
 
 ## Known bugs
 
-N/A
+Functionality of radio button form is still work in progress
 
 ## License
 
