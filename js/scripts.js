@@ -1,7 +1,7 @@
 function handleRadio(event) {
   event.preventDefault();
   const radioSelection = document.querySelector(
-    "input[name='flavor']:checked"
+    "input[name='end']:checked"
   ).value;
 }
 

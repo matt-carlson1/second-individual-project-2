@@ -4,3 +4,10 @@
 .question {
   color: tomato;
 }
+.heading {
+  margin: 0px;
+  border: 4px solid rgb(243, 15, 15);
+  padding: 20px;
+  background-color: rgb(255, 234, 143);
+  color: rgb(6, 52, 219);
+}
