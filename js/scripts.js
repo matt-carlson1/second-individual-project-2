@@ -1,6 +1,5 @@
 function handleRadio(event) {
   event.preventDefault();
-  console.log("first test");
   const endRadioSelection = document.querySelector(
     "input[name='end']:checked"
   ).value;
@@ -16,17 +15,12 @@ function handleRadio(event) {
   const libraryRadioSelection = document.querySelector(
     "input[name='library']:checked"
   ).value;
-  console.log(endRadioSelection);
-  console.log(basedRadioSelection);
-  console.log(difficultyRadioSelection);
-  console.log(speedRadioSelection);
-  console.log(libraryRadioSelection);
 }
 
 window.addEventListener("load", function () {
   document.getElementById("radio-form").addEventListener("submit", handleRadio);
 });
 
-if ("end" == "frontEnd") {
+if ("endRadioSelection" == "frontEnd") {
   javascript.removeAttribute("class");
 }
