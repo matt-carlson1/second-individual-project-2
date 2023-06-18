@@ -24,7 +24,9 @@ function handleRadio(event) {
 }
 
 window.addEventListener("load", function () {
-  console.log("testing");
   document.getElementById("radio-form").addEventListener("submit", handleRadio);
-  console.log("this is running");
 });
+
+if ("end" == "frontEnd") {
+  javascript.removeAttribute("class");
+}
